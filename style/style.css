@@ -290,7 +290,7 @@ header.top h1 .ofThe .of {
 }
 header.top h3 {
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.6rem;
   color: #f5a623;
   position: relative;
   display: inline-block;
@@ -301,6 +301,7 @@ header.top h3 span {
   z-index: 2;
   padding-left: 1rem;
   padding-right: 1rem;
+  font-size: 1rem;
 }
 header.top h3:before,
 header.top h3:after {
@@ -502,10 +503,11 @@ ul.order li span.count span {
 }
 .menu-fish p {
   margin: 0;
-  font-size: 1.8rem;
+  font-size: 0.8rem;
 }
 .menu-fish .fish-name {
   margin: 0;
+  font-size: 0.95rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -517,7 +519,7 @@ ul.order li span.count span {
           align-items: center;
 }
 .menu-fish .price {
-  font-size: 1.4rem;
+  font-size: 0.8rem;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -533,7 +535,7 @@ input[type=submit] {
   background: none;
   border: 1px solid #000;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   font-family: 'Open Sans';
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
